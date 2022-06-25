@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: aquamarine;
+  display: flex;
+ height: 100% ;
+ padding: 20%;
+  
+}
+main {
+  display: grid;
+  grid-template-areas:
+    "one one two"
+    "three four five"
+    ;
+    gap: 10px;
+    
+}
+main > * {
+  padding: 2em;
+  text-align: center;
+}
+.one {
+  background-color: coral;
+  grid-area: one;
+  width: 10em;
+}
+.two {
+  background-color: navy;
+  grid-area: two;
+  width: 7em;
+}
+.three {
+  background-color: darkmagenta;
+  grid-area: three;
+}
+.four {
+  background-color: crimson;
+  grid-area: four;
+}
+.five {
+  background-color: blueviolet;
+  grid-area: five;
+  width: 7em;
+}
