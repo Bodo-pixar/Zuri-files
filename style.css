@@ -82,8 +82,4 @@ button {
   main {
     flex-direction: column;
   }
-
-  .sedan {
-  /* background-color: hsl(125, 86%, 52%); */
-  }
 }
